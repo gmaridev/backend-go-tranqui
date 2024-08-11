@@ -13,7 +13,7 @@ const RatingsSchema = new Schema({
      ref:'Conductores'
    },
    viaje: {
-    type: Schema.ObjectId,
+    type: Schema.ObjectId,    //hola
     ref:'Viajes'
   },
    rating: {
